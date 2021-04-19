@@ -14,6 +14,7 @@ app.use(session({secret: 'UnaClaveMuySecreta'}));
 //setting
 app.set('views', path.join(__dirname, 'views'));
 app.set ('port', 3000);
+const PORT = process.env.PORT || app.get('port')
 
 //handlebars
 
