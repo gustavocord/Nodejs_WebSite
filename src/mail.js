@@ -12,7 +12,7 @@ console.log("nodeMailerSample()");
     });
 
     var mailOptions = {
-      from: 'cordobagustavoj@gmail.com',
+      from: 'mimail@gmail.com',
       to: 'targetaccount1@othercompany.com,targetaccount2@onemorecompany.com',
       subject: 'Sending Email using Node.js',
       text: 'That was easy!'
